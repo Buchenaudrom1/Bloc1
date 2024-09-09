@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    DocumentRoot "c:C:file:///C:/Users/rbuchenaud/Documents/github/Bloc1/bloc1/td2/docs/index.html"
+    ServerName dev.local
+    ErrorLog "logs/dev.local-error.log"
+    CustomLog "logs/dev.local-access.log" common
+    <Directory "c:C:file:///C:/Users/rbuchenaud/Documents/github/Bloc1/bloc1/td2/docs/index.html">
+        Require all granted    
+    </Directory>
+</VirtualHost>
