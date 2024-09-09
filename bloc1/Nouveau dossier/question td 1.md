@@ -44,7 +44,7 @@ port pas default de https est 443
 
 - Codes de réponse HTTP
 - Les réponses informatives ( 100 - 199 ),
-- Les réponses de succès ( 200 - 299 ),
+- la requte a reussit  ( 200 - 299 ),
 - Les messages de redirection ( 300 - 399 ),
 - Les erreurs du client ( 400 - 499 ),
 - Les erreurs du serveur ( 500 - 599 ).
