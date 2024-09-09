@@ -24,6 +24,8 @@ le protocle http est extensible, grace un accord entre le client et le server De
 
 HTTP est sans état : il n'y a pas de lien entre deux requêtes qui sont effectuées successivement sur la même connexion.
 
+entre deux requette http le server ne sait pas que c'est le meme client , le client donne des coockies au server pour conserver ces donnes 
+
 ## question 5
 
 http correspond au protocle
@@ -33,6 +35,10 @@ www. .com correspond au nom du domain
 :00 correspond au port de url
 
 / / correspond au chemin pour allers au site
+
+port pas default de https est 443
+
+#top correspond au fragment , position dans la page
 
 ## question 6
 
