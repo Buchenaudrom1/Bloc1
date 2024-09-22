@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style du document avec les marges */
+.document {
+    background-color: white;
+    width: 80%; /* Ajuste la largeur pour imiter une page PDF */
+    margin: 50px auto; /* 50px de marge autour (haut, bas, gauche, droite) */
+    padding: 40px; /* Espace intérieur (marges internes) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Effet d'ombre pour imiter un document */
+    border-radius: 10px; /* Coins légèrement arrondis */
+}
+
+p{
+    font-size: larger;
+}
+
+.rouge{
+    color: red;
+}
