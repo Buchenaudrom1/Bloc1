@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141a22;
+    color: #207B24;
+}
+.container {
+    .Block-1-SLAM {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    } 
+    header{
+        border-style: solid;
+        background-color: #bbe225;
+        color: white;
+        padding: 20px 0;
+        display: flex;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .Block-1-SLAM {
+        flex-grow: 1; 
+        text-align: center; 
+    }
+
+    .Link {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }      
+    header{
+        border-style: solid;
+        background-color: #bbe225;
+        color: rgb(255, 255, 255);
+        padding: 20px 0;
+        display: flex;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .Link {
+        flex-grow: 1; 
+        text-align: center; 
+    } 
+
+    .TD-1 {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    } 
+    header{
+        border-style: solid;
+        background-color: #bbe225;
+        color: white;
+        padding: 20px 0;
+        display: flex;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .TD-1 {
+        flex-grow: 1; 
+        text-align: center; 
+    }
+
+    .TD-2 {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    } 
+    header{
+        border-style: solid;
+        background-color: #bbe225;
+        color: white;
+        padding: 20px 0;
+        display: flex;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .TD-2 {
+        flex-grow: 1; 
+        text-align: center; 
+    }
+
+    .TD-3 {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    } 
+    header{
+        border-style: solid;
+        background-color: #bbe225;
+        color: white;
+        padding: 20px 0;
+        display: flex;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .TD-3 {
+        flex-grow: 1; 
+        text-align: center; 
+    }
+}
