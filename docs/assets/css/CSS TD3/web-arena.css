@@ -1,125 +1,67 @@
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f5f5f5;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Section Blog Header */
+.blog-header {
+    text-align: center;
     padding: 20px;
-    background: linear-gradient(to right, #0052cc, #00aaff);
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #1e90ff;
 }
 
-header .logo img {
-    width: 150px;
+.blog-header h1 {
+    font-size: 2.5em;
+    color: #1e90ff;
 }
 
-nav ul {
-    list-style: none;
+.blog-header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Blog Posts */
+.blog-posts {
     display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-}
-
-nav ul li a.active, nav ul li a:hover {
-    background-color: #0041a3;
-    border-radius: 4px;
-}
-
-.about-us {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: white;
-}
-
-.about-us h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #0052cc;
-    display: inline-block;
-}
-
-.about-us p {
-    font-size: 18px;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-
-.about-us .btn {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #0052cc;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.about-us .btn:hover {
-    background-color: #0041a3;
-}
-
-.partners {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f9f9f9;
-}
-
-.partners h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #0052cc;
-    display: inline-block;
-}
-
-.partners p {
-    font-size: 18px;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-}
-
-.partner-logos {
-    display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
 }
 
-.partner-logos img {
-    width: 150px;
-    height: auto;
+.post {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-footer {
-    background: linear-gradient(to right, #0052cc, #00aaff);
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
+.post h2 {
+    font-size: 1.5em;
+    color: #1e90ff;
+    margin-bottom: 10px;
 }
 
-footer a {
-    color: #00aaff;
+.post p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.post .read-more {
     text-decoration: none;
+    color: white;
+    background-color: #1e90ff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
-footer a:hover {
-    text-decoration: underline;
+.post .read-more:hover {
+    background-color: #104e8b;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }

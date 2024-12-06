@@ -1,90 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Arena - Blog</title>
-
-    <link rel="stylesheet" href="..\assets\css\CSS TD3\web-arena.css">
-
+    <title>Web Arena Blog</title>
+    <link rel="stylesheet" href="web-arena.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="..\..\assets\images\TD 3\logo.png" alt="Web Arena Logo">
-        </div>
-        <nav>
+        <nav class="navbar">
             <ul>
-                <li><a href="#" class="active">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACTS</a></li>
+                <li><a href="about-us.html">À propos</a></li>
+                <li class="active"><a href="blog.html">Blog</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <main>
 
-    <main class="blog-page">
-        <aside class="sidebar">
-            <div class="categories">
-                <h3>Categories</h3>
-                <ul>
-                    <li><a href="#">Recent</a></li>
-                    <li><a href="#">Latest Publications</a></li>
-                    <li><a href="#">Archived</a></li>
-                    <li><a href="#">Upcoming Events</a></li>
-                </ul>
+        <div class="tags">
+            <h3>Tags</h3>
+            <a href="#" class="tag">Tech</a>
+            <a href="#" class="tag">Business</a>
+            <a href="#" class="tag">Design</a>
+        </div>
+
+        <div class="recent-posts">
+            <h3>Recent Posts</h3>
+            <div class="post">
+                <img src="..\..\assets\images\TD 3\blog-img1.jpg" alt="Post Image">
+                <p><a href="#">Rethinking Payday Loans & Doorway Pages?</a></p>
+                <span>May 12, 2022</span>
             </div>
-
-            <div class="tags">
-                <h3>Tags</h3>
-                <a href="#" class="tag">Tech</a>
-                <a href="#" class="tag">Business</a>
-                <a href="#" class="tag">Design</a>
+            <div class="post">
+                <img src="..\..\assets\images\TD 3\blog-img5.jpg" alt="Post Image">
+                <p><a href="#">Google Rethinking Payday Loans</a></p>
+                <span>May 15, 2022</span>
             </div>
-
-            <div class="recent-posts">
-                <h3>Recent Posts</h3>
-                <div class="post">
-                    <img src="..\..\assets\images\TD 3\blog-img1.jpg" alt="Post Image">
-                    <p><a href="#">Rethinking Payday Loans & Doorway Pages?</a></p>
-                    <span>May 12, 2022</span>
-                </div>
-                <div class="post">
-                    <img src="..\..\assets\images\TD 3\blog-img5.jpg" alt="Post Image">
-                    <p><a href="#">Google Rethinking Payday Loans</a></p>
-                    <span>May 15, 2022</span>
-                </div>
-            </div>
-        </aside>
-
+        </div>
+        
+        <section class="blog-header">
+            <h1>Notre Blog</h1>
+            <p>Découvrez nos dernières actualités, astuces et tendances numériques.</p>
+        </section>
         <section class="blog-posts">
             <article class="post">
-                <img src="..\..\assets\images\TD 3\blog-img6.jpg" alt="Post 1 Image">
-                <h2>Google Rethinking Payday Loans & Doorway Pages?</h2>
-                <p>Today we’d like to touch the topic which is gaining popularity among the people of small companies as well as students...</p>
-                <a href="#" class="btn">READ MORE</a>
+                <h2>5 conseils pour une présence en ligne réussie</h2>
+                <p>Maximisez votre impact numérique grâce à ces stratégies simples.</p>
+                <a href="#" class="read-more">Lire plus</a>
             </article>
-
             <article class="post">
-                <img src="..\..\assets\images\TD 3\blog-img7.jpg" alt="Post 2 Image">
-                <h2>Rethinking Payday Loans & Doorway Pages?</h2>
-                <p>In this article, you will find out about the Children's Book Exhibition - an annual event that gathers the world’s most famous authors...</p>
-                <a href="#" class="btn">READ MORE</a>
+                <h2>Les tendances web à surveiller en 2024</h2>
+                <p>Restez à jour avec les évolutions technologiques du web.</p>
+                <a href="#" class="read-more">Lire plus</a>
             </article>
-
             <article class="post">
-                <img src="..\..\assets\images\TD 3\blog-img8.jpg" alt="Post 3 Image">
-                <h2>James B. Bernard is going to visit Los Angeles this spring</h2>
-                <p>James Richard Bernard, the curator of contemporary art, is visiting Los Angeles this spring to discuss various social and economic trends...</p>
-                <a href="#" class="btn">READ MORE</a>
+                <h2>Comment choisir un hébergement web</h2>
+                <p>Tout ce que vous devez savoir avant de choisir votre hébergeur.</p>
+                <a href="#" class="read-more">Lire plus</a>
             </article>
         </section>
     </main>
-
     <footer>
-        <p>2023 © TopDog. All rights reserved | <a href="#">Privacy policy</a></p>
+        <p>&copy; 2024 Web Arena. Tous droits réservés.</p>
     </footer>
 </body>
 </html>

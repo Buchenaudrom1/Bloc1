@@ -19,7 +19,7 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    background-image: url("../../images/df-min.jpg");
+    background-image: url("assets\images\TD 3\df-min.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }  
@@ -42,7 +42,7 @@ body {
     margin-bottom: 5px;
 }
 
-.image-caption {
+ {
     color: #dfdfdf;
     font-size: 14px;
 }
